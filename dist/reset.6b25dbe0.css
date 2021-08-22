@@ -1,0 +1,58 @@
+/* universal selector * */
+:root {
+  --font-title:"Rampart One", cursive;
+  --font-body:"Besley", serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: rgba(255, 123, 83, 0.733);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2 {
+  font-family: var(--font-title);
+}
+
+.container {
+  width: min(1200px, 80%);
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background: #d2252570 url(/Unavu_Ready-intro.67bfbc86.jpg) center no-repeat fixed;
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: #fff;
+}
+.header h1 {
+  font-size: 2rem;
+}
+
+/* reset.6b25dbe0.css | http://localhost:1234/reset.6b25dbe0.css */
+
+/*# sourceMappingURL=/reset.6b25dbe0.css.map */
