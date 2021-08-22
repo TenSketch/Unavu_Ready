@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,QAAQC,IAAG","sources":["src/main.js"],"sourcesContent":["console.log('css reset');\n\n// let num1=4;\n// let num2=5;\n\n// function add(){\n//     let total=num1+num2;\n//     return total;\n// }\n\n// add();"],"names":["console","log"],"version":3,"file":"index.1b57305f.js.map"}

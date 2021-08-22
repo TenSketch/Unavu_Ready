@@ -2,16 +2,17 @@
   "name": "css--reset",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "source":"src/index.html",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0",
     "sass": "^1.38.0"
   }
